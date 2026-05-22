@@ -5,7 +5,7 @@ import axios from "axios";
 import type { LoginResponse } from "../types/auth";
 
 // URL BASE DE LA API
-const API_URL = "http://localhost/api";
+const API_URL = "https://libreriamanitas.com/apilogin";
 
 // FUNCION ASINCRONA login
 export async function login(
